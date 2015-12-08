@@ -5,24 +5,8 @@ import java.io.File;
 import org.junit.Test;
 
 public class Main {
-	
-	@Test
-	public void continousTrain() {
-		String configPath = "./cfg/yelda.properties";
-		for (int i = 1; i < 15; i++) {
-			LdaArgs option = LdaArgs.initLdaArgs(configPath);
-			option.dfile = i + ".txt";
-			option.modelName = "model-final-" + i;
-			Trainer trainer = new Trainer();
-			if (!trainer.init(option)) {
-				System.out.println("Trainer init failed!");
-				return;
-			}
-			trainer.trnModel.data.localVoc.writeWordMap(option.dir + File.separator + "wordmap" + i + ".txt");
-			trainer.train();
-		}
-		
-	}
+
+	//delete
 	
 	public static void main(String[] args) {
 		String configPath = "./cfg/yelda.properties";

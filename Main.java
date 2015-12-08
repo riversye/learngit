@@ -6,8 +6,7 @@ import org.junit.Test;
 
 public class Main {
 
-	//delete
-	
+	//delete	
 	public static void main(String[] args) {
 		String configPath = "./cfg/yelda.properties";
 		LdaArgs option = LdaArgs.initLdaArgs(configPath);

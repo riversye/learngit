@@ -8,6 +8,7 @@ public class Main {
 
 	//delete	
 	//branch master feature1
+
 	public static void main(String[] args) {
 		String configPath = "./cfg/yelda.properties";
 		LdaArgs option = LdaArgs.initLdaArgs(configPath);

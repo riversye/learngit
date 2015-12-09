@@ -7,7 +7,7 @@ import org.junit.Test;
 public class Main {
 
 	//delete	
-	//branch master feature1
+	//branch master feature
 
 	public static void main(String[] args) {
 		String configPath = "./cfg/yelda.properties";

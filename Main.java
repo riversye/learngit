@@ -34,14 +34,6 @@ public class Main {
 				}
 				
 				inferencer.inference();
-			
-//				for (int i = 0; i < newModel.phi.length; ++i){
-//					//phi: K * V
-//					System.out.println("-----------------------\ntopic" + i  + " : ");
-//					for (int j = 0; j < 10; ++j){
-//						System.out.println(inferencer.globalVoc.id2word.get(j) + "\t" + newModel.phi[i][j]);
-//					}
-//				}
 			}
 		}
 		catch (Exception e){
